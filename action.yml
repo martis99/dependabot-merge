@@ -5,6 +5,7 @@ inputs:
   pull:
     default: ${{ github.event.number }}
   token:
+    description: Personal access token (PAT)
 
 runs:
   using: 'composite'
