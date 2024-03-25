@@ -10,7 +10,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-  - name: Unzip
+  - name: Comment
     shell: bash
     if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
     run: |
